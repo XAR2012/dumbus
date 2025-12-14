@@ -1,1 +1,2 @@
-alert(document.domain);
+var code = "alert('XSS')";
+eval(code);
